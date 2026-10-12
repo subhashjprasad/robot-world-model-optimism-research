@@ -1,0 +1,21 @@
+{
+ "citation": "// TODO(example_dataset): BibTeX citation",
+ "description": "TODO(example_dataset): Markdown description of your dataset.\nDescription is **formatted** as markdown.\n\nIt should also contain any processing which has been applied (if any),\n(e.g. corrupted example skipped, images cropped,...):",
+ "fileFormat": "tfrecord",
+ "moduleName": "imperial_wrist_dataset.imperial_wrist_dataset_dataset_builder",
+ "name": "imperial_wrist_dataset",
+ "releaseNotes": {
+  "1.0.0": "Initial release."
+ },
+ "splits": [
+  {
+   "filepathTemplate": "{DATASET}-{SPLIT}.{FILEFORMAT}-{SHARD_X_OF_Y}",
+   "name": "train",
+   "numBytes": "85846365",
+   "shardLengths": [
+    "170"
+   ]
+  }
+ ],
+ "version": "1.0.0"
+}

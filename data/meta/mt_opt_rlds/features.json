@@ -1,0 +1,147 @@
+{
+ "type": "tensorflow_datasets.core.features.features_dict.FeaturesDict",
+ "content": {
+  "steps": {
+   "type": "tensorflow_datasets.core.features.dataset_feature.Dataset",
+   "content": {
+    "feature": {
+     "type": "tensorflow_datasets.core.features.features_dict.FeaturesDict",
+     "content": {
+      "observation": {
+       "type": "tensorflow_datasets.core.features.features_dict.FeaturesDict",
+       "content": {
+        "image": {
+         "type": "tensorflow_datasets.core.features.image_feature.Image",
+         "content": {
+          "shape": [
+           512,
+           640,
+           3
+          ],
+          "dtype": "uint8",
+          "encoding_format": "jpeg",
+          "use_colormap": false
+         }
+        },
+        "state_dense": {
+         "type": "tensorflow_datasets.core.features.tensor_feature.Tensor",
+         "content": {
+          "shape": [
+           7
+          ],
+          "dtype": "float32",
+          "encoding": "zlib"
+         }
+        },
+        "gripper_closed": {
+         "type": "tensorflow_datasets.core.features.tensor_feature.Tensor",
+         "content": {
+          "shape": [],
+          "dtype": "bool",
+          "encoding": "none"
+         }
+        },
+        "height_to_bottom": {
+         "type": "tensorflow_datasets.core.features.tensor_feature.Tensor",
+         "content": {
+          "shape": [],
+          "dtype": "float32",
+          "encoding": "none"
+         }
+        }
+       }
+      },
+      "action": {
+       "type": "tensorflow_datasets.core.features.features_dict.FeaturesDict",
+       "content": {
+        "close_gripper": {
+         "type": "tensorflow_datasets.core.features.tensor_feature.Tensor",
+         "content": {
+          "shape": [],
+          "dtype": "bool",
+          "encoding": "none"
+         }
+        },
+        "open_gripper": {
+         "type": "tensorflow_datasets.core.features.tensor_feature.Tensor",
+         "content": {
+          "shape": [],
+          "dtype": "bool",
+          "encoding": "none"
+         }
+        },
+        "terminate": {
+         "type": "tensorflow_datasets.core.features.tensor_feature.Tensor",
+         "content": {
+          "shape": [],
+          "dtype": "bool",
+          "encoding": "none"
+         }
+        },
+        "target_pose": {
+         "type": "tensorflow_datasets.core.features.tensor_feature.Tensor",
+         "content": {
+          "shape": [
+           7
+          ],
+          "dtype": "float32",
+          "encoding": "zlib"
+         }
+        }
+       }
+      },
+      "is_first": {
+       "type": "tensorflow_datasets.core.features.tensor_feature.Tensor",
+       "content": {
+        "shape": [],
+        "dtype": "bool",
+        "encoding": "none"
+       }
+      },
+      "is_last": {
+       "type": "tensorflow_datasets.core.features.tensor_feature.Tensor",
+       "content": {
+        "shape": [],
+        "dtype": "bool",
+        "encoding": "none"
+       }
+      },
+      "is_terminal": {
+       "type": "tensorflow_datasets.core.features.tensor_feature.Tensor",
+       "content": {
+        "shape": [],
+        "dtype": "bool",
+        "encoding": "none"
+       }
+      }
+     }
+    },
+    "length": null
+   }
+  },
+  "episode_id": {
+   "type": "tensorflow_datasets.core.features.tensor_feature.Tensor",
+   "content": {
+    "shape": [],
+    "dtype": "string",
+    "encoding": "none"
+   }
+  },
+  "task_code": {
+   "type": "tensorflow_datasets.core.features.tensor_feature.Tensor",
+   "content": {
+    "shape": [],
+    "dtype": "string",
+    "encoding": "none"
+   }
+  },
+  "skill": {
+   "type": "tensorflow_datasets.core.features.tensor_feature.Tensor",
+   "content": {
+    "shape": [],
+    "dtype": "uint8",
+    "encoding": "none"
+   }
+  }
+ }
+}

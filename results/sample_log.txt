@@ -1,0 +1,154 @@
+mt_opt_sd                                                         sampled=320
+language_table_separate_oracle_sim                                sampled=320
+language_table                                                    sampled=320
+language_table_blocktorelative_oracle_sim                         sampled=320
+mt_opt_rlds                                                       sampled=320
+language_table_blocktoblockrelative_oracle_sim                    sampled=320
+kuka                                                              sampled=320
+bc_z: no shards
+bc_z                                                              sampled=0
+language_table_blocktoabsolute_oracle_sim                         sampled=320
+spoc                                                              sampled=320
+language_table_sim                                                sampled=320
+vima_converted_externally_to_rlds                                 sampled=320
+fractal20220817_data                                              sampled=320
+language_table_blocktoblock_oracle_sim                            sampled=320
+bridge_data_v2                                                    sampled=320
+berkeley_gnm_recon                                                sampled=320
+language_table_blocktoblock_4block_sim                            sampled=320
+berkeley_gnm_cory_hall                                            sampled=320
+maniskill_dataset_converted_externally_to_rlds                    sampled=319
+language_table_blocktoblock_sim                                   sampled=320
+robo_net                                                          sampled=320
+stanford_mask_vit_converted_externally_to_rlds                    sampled=149
+robo_set                                                          sampled=276
+droid                                                             sampled=320
+bridge                                                            sampled=315
+dobbe                                                             sampled=159
+bc_z: using tfrecord version 1.0.0 instead of 1.0.1
+[memguard] RSS 1.77 GB > cap 1.5 GB: killing ['uv', 'run', 'python', 'audit/sample_episodes.py']
+[memguard] peak 1.77 GB (killed)
+bc_z                                                              sampled=320
+[memguard] peak 0.30 GB, exit 0
+furniture_bench_dataset_converted_externally_to_rlds              sampled=69
+[memguard] peak 0.81 GB, exit 0
+[memguard] RSS 1.69 GB > cap 1.5 GB: killing ['uv', 'run', 'python', 'audit/sample_episodes.py']
+[memguard] peak 1.69 GB (killed)
+io_ai_tech                                                        sampled=31
+[memguard] peak 0.70 GB, exit 0
+cmu_playing_with_food                                             sampled=33
+[memguard] peak 0.89 GB, exit 0
+taco_play                                                         sampled=38
+[memguard] peak 0.43 GB, exit 0
+stanford_kuka_multimodal_dataset_converted_externally_to_rlds     sampled=78
+[memguard] peak 0.42 GB, exit 0
+berkeley_gnm_sac_son                                              sampled=80
+[memguard] peak 0.36 GB, exit 0
+stanford_robocook_converted_externally_to_rlds                    sampled=14
+[memguard] peak 1.06 GB, exit 0
+roboturk                                                          sampled=31
+[memguard] peak 0.69 GB, exit 0
+berkeley_cable_routing                                            sampled=80
+[memguard] peak 0.34 GB, exit 0
+mutex_dataset                                                     sampled=47
+[memguard] peak 0.48 GB, exit 0
+ucsd_pick_and_place_dataset_converted_externally_to_rlds          sampled=80
+[memguard] peak 0.31 GB, exit 0
+utaustin_mutex                                                    sampled=46
+[memguard] peak 0.51 GB, exit 0
+jaco_play                                                         sampled=45
+[memguard] peak 0.39 GB, exit 0
+usc_cloth_sim_converted_externally_to_rlds                        sampled=20
+[memguard] peak 0.28 GB, exit 0
+[memguard] RSS 1.50 GB > cap 1.5 GB: killing ['uv', 'run', 'python', 'audit/sample_episodes.py']
+[memguard] peak 1.50 GB (killed)
+berkeley_rpt_converted_externally_to_rlds                         sampled=15
+[memguard] peak 0.73 GB, exit 0
+berkeley_autolab_ur5                                              sampled=16
+[memguard] peak 0.91 GB, exit 0
+bridge_data_msr                                                   sampled=35
+[memguard] peak 0.61 GB, exit 0
+cmu_play_fusion                                                   sampled=63
+[memguard] peak 0.47 GB, exit 0
+iamlab_cmu_pickup_insert_converted_externally_to_rlds             sampled=19
+[memguard] peak 1.35 GB, exit 0
+austin_sirius_dataset_converted_externally_to_rlds                sampled=71
+[memguard] peak 0.45 GB, exit 0
+stanford_hydra_dataset_converted_externally_to_rlds               sampled=9
+[memguard] peak 0.98 GB, exit 0
+nyu_door_opening_surprising_effectiveness                         sampled=48
+[memguard] peak 0.53 GB, exit 0
+berkeley_mvp_converted_externally_to_rlds                         sampled=32
+[memguard] peak 0.57 GB, exit 0
+nyu_franka_play_dataset_converted_externally_to_rlds              sampled=80
+[memguard] peak 0.79 GB, exit 0
+plex_robosuite                                                    sampled=80
+[memguard] peak 0.39 GB, exit 0
+robo_ai_u_r5e                                                     sampled=19
+[memguard] peak 0.88 GB, exit 0
+fanuc_manipulation_v2                                             sampled=26
+[memguard] peak 0.45 GB, exit 0
+berkeley_fanuc_manipulation                                       sampled=30
+[memguard] peak 0.53 GB, exit 0
+[memguard] RSS 1.50 GB > cap 1.5 GB: killing ['uv', 'run', 'python', 'audit/sample_episodes.py']
+[memguard] peak 1.50 GB (killed)
+mimic_play                                                        sampled=41
+[memguard] peak 1.00 GB, exit 0
+utokyo_pr2_tabletop_manipulation_converted_externally_to_rlds: using tfrecord version 0.1.0 instead of 1.0.0
+utokyo_pr2_tabletop_manipulation_converted_externally_to_rlds     sampled=80
+[memguard] peak 0.32 GB, exit 0
+kaist_nonprehensile_converted_externally_to_rlds                  sampled=19
+[memguard] peak 1.10 GB, exit 0
+austin_sailor_dataset_converted_externally_to_rlds                sampled=24
+[memguard] peak 1.32 GB, exit 0
+[memguard] RSS 1.50 GB > cap 1.5 GB: killing ['uv', 'run', 'python', 'audit/sample_episodes.py']
+[memguard] peak 1.50 GB (killed)
+cmu_franka_exploration_dataset_converted_externally_to_rlds       sampled=80
+[memguard] peak 0.31 GB, exit 0
+imperial_wrist_dataset                                            sampled=10
+[memguard] peak 0.26 GB, exit 0
+imperialcollege_sawyer_wrist_cam                                  sampled=10
+[memguard] peak 0.28 GB, exit 0
+uiuc_d3field                                                      sampled=13
+[memguard] peak 0.95 GB, exit 0
+ucsd_kitchen_dataset_converted_externally_to_rlds                 sampled=64
+[memguard] peak 0.38 GB, exit 0
+viola                                                             sampled=19
+[memguard] peak 1.15 GB, exit 0
+conq_hose_manipulation                                            sampled=25
+[memguard] peak 1.25 GB, exit 0
+columbia_cairlab_pusht_real                                       sampled=32
+[memguard] peak 0.50 GB, exit 0
+[memguard] RSS 1.67 GB > cap 1.5 GB: killing ['uv', 'run', 'python', 'audit/sample_episodes.py']
+[memguard] peak 1.67 GB (killed)
+cmu_stretch                                                       sampled=77
+[memguard] peak 0.33 GB, exit 0
+[memguard] RSS 1.62 GB > cap 1.5 GB: killing ['uv', 'run', 'python', 'audit/sample_episodes.py']
+[memguard] peak 1.62 GB (killed)
+asu_table_top_converted_externally_to_rlds                        sampled=80
+[memguard] peak 0.44 GB, exit 0
+dlr_sara_grid_clamp_converted_externally_to_rlds                  sampled=56
+[memguard] peak 0.69 GB, exit 0
+dlr_edan_shared_control_converted_externally_to_rlds              sampled=27
+[memguard] peak 0.60 GB, exit 0
+utokyo_xarm_pick_and_place_converted_externally_to_rlds           sampled=49
+[memguard] peak 0.43 GB, exit 0
+dlr_sara_pour_converted_externally_to_rlds                        sampled=24
+[memguard] peak 0.63 GB, exit 0
+droid_100                                                         sampled=23
+[memguard] peak 0.73 GB, exit 0
+utokyo_xarm_bimanual_converted_externally_to_rlds                 sampled=10
+[memguard] peak 0.29 GB, exit 0
+utokyo_pr2_opening_fridge_converted_externally_to_rlds            sampled=40
+[memguard] peak 0.30 GB, exit 0
+tokyo_u_lsmo_converted_externally_to_rlds                         sampled=40
+[memguard] peak 0.33 GB, exit 0
+tidybot                                                           sampled=10
+[memguard] peak 0.29 GB, exit 0
+utokyo_saytap_converted_externally_to_rlds                        sampled=10
+[memguard] peak 0.31 GB, exit 0
+nyu_rot_dataset_converted_externally_to_rlds                      sampled=10
+[memguard] peak 0.28 GB, exit 0
+austin_buds_dataset_converted_externally_to_rlds                  sampled=27
+[memguard] peak 0.52 GB, exit 0
+done

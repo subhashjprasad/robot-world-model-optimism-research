@@ -1,0 +1,283 @@
+{
+ "featuresDict": {
+  "features": {
+   "episode_metadata": {
+    "featuresDict": {
+     "features": {
+      "file_path": {
+       "pythonClassName": "tensorflow_datasets.core.features.tensor_feature.Tensor",
+       "tensor": {
+        "dtype": "string",
+        "encoding": "none",
+        "shape": {}
+       }
+      },
+      "recording_folderpath": {
+       "pythonClassName": "tensorflow_datasets.core.features.tensor_feature.Tensor",
+       "tensor": {
+        "dtype": "string",
+        "encoding": "none",
+        "shape": {}
+       }
+      }
+     }
+    },
+    "pythonClassName": "tensorflow_datasets.core.features.features_dict.FeaturesDict"
+   },
+   "steps": {
+    "pythonClassName": "tensorflow_datasets.core.features.dataset_feature.Dataset",
+    "sequence": {
+     "feature": {
+      "featuresDict": {
+       "features": {
+        "action": {
+         "pythonClassName": "tensorflow_datasets.core.features.tensor_feature.Tensor",
+         "tensor": {
+          "dtype": "float64",
+          "encoding": "none",
+          "shape": {
+           "dimensions": [
+            "7"
+           ]
+          }
+         }
+        },
+        "action_dict": {
+         "featuresDict": {
+          "features": {
+           "cartesian_position": {
+            "pythonClassName": "tensorflow_datasets.core.features.tensor_feature.Tensor",
+            "tensor": {
+             "dtype": "float64",
+             "encoding": "none",
+             "shape": {
+              "dimensions": [
+               "6"
+              ]
+             }
+            }
+           },
+           "cartesian_velocity": {
+            "pythonClassName": "tensorflow_datasets.core.features.tensor_feature.Tensor",
+            "tensor": {
+             "dtype": "float64",
+             "encoding": "none",
+             "shape": {
+              "dimensions": [
+               "6"
+              ]
+             }
+            }
+           },
+           "gripper_position": {
+            "pythonClassName": "tensorflow_datasets.core.features.tensor_feature.Tensor",
+            "tensor": {
+             "dtype": "float64",
+             "encoding": "none",
+             "shape": {
+              "dimensions": [
+               "1"
+              ]
+             }
+            }
+           },
+           "gripper_velocity": {
+            "pythonClassName": "tensorflow_datasets.core.features.tensor_feature.Tensor",
+            "tensor": {
+             "dtype": "float64",
+             "encoding": "none",
+             "shape": {
+              "dimensions": [
+               "1"
+              ]
+             }
+            }
+           },
+           "joint_position": {
+            "pythonClassName": "tensorflow_datasets.core.features.tensor_feature.Tensor",
+            "tensor": {
+             "dtype": "float64",
+             "encoding": "none",
+             "shape": {
+              "dimensions": [
+               "7"
+              ]
+             }
+            }
+           },
+           "joint_velocity": {
+            "pythonClassName": "tensorflow_datasets.core.features.tensor_feature.Tensor",
+            "tensor": {
+             "dtype": "float64",
+             "encoding": "none",
+             "shape": {
+              "dimensions": [
+               "7"
+              ]
+             }
+            }
+           }
+          }
+         },
+         "pythonClassName": "tensorflow_datasets.core.features.features_dict.FeaturesDict"
+        },
+        "discount": {
+         "pythonClassName": "tensorflow_datasets.core.features.scalar.Scalar",
+         "tensor": {
+          "dtype": "float32",
+          "encoding": "none",
+          "shape": {}
+         }
+        },
+        "is_first": {
+         "pythonClassName": "tensorflow_datasets.core.features.tensor_feature.Tensor",
+         "tensor": {
+          "dtype": "bool",
+          "encoding": "none",
+          "shape": {}
+         }
+        },
+        "is_last": {
+         "pythonClassName": "tensorflow_datasets.core.features.tensor_feature.Tensor",
+         "tensor": {
+          "dtype": "bool",
+          "encoding": "none",
+          "shape": {}
+         }
+        },
+        "is_terminal": {
+         "pythonClassName": "tensorflow_datasets.core.features.tensor_feature.Tensor",
+         "tensor": {
+          "dtype": "bool",
+          "encoding": "none",
+          "shape": {}
+         }
+        },
+        "language_instruction": {
+         "pythonClassName": "tensorflow_datasets.core.features.tensor_feature.Tensor",
+         "tensor": {
+          "dtype": "string",
+          "encoding": "none",
+          "shape": {}
+         }
+        },
+        "language_instruction_2": {
+         "pythonClassName": "tensorflow_datasets.core.features.tensor_feature.Tensor",
+         "tensor": {
+          "dtype": "string",
+          "encoding": "none",
+          "shape": {}
+         }
+        },
+        "language_instruction_3": {
+         "pythonClassName": "tensorflow_datasets.core.features.tensor_feature.Tensor",
+         "tensor": {
+          "dtype": "string",
+          "encoding": "none",
+          "shape": {}
+         }
+        },
+        "observation": {
+         "featuresDict": {
+          "features": {
+           "cartesian_position": {
+            "pythonClassName": "tensorflow_datasets.core.features.tensor_feature.Tensor",
+            "tensor": {
+             "dtype": "float64",
+             "encoding": "none",
+             "shape": {
+              "dimensions": [
+               "6"
+              ]
+             }
+            }
+           },
+           "exterior_image_1_left": {
+            "image": {
+             "dtype": "uint8",
+             "encodingFormat": "jpeg",
+             "shape": {
+              "dimensions": [
+               "180",
+               "320",
+               "3"
+              ]
+             }
+            },
+            "pythonClassName": "tensorflow_datasets.core.features.image_feature.Image"
+           },
+           "exterior_image_2_left": {
+            "image": {
+             "dtype": "uint8",
+             "encodingFormat": "jpeg",
+             "shape": {
+              "dimensions": [
+               "180",
+               "320",
+               "3"
+              ]
+             }
+            },
+            "pythonClassName": "tensorflow_datasets.core.features.image_feature.Image"
+           },
+           "gripper_position": {
+            "pythonClassName": "tensorflow_datasets.core.features.tensor_feature.Tensor",
+            "tensor": {
+             "dtype": "float64",
+             "encoding": "none",
+             "shape": {
+              "dimensions": [
+               "1"
+              ]
+             }
+            }
+           },
+           "joint_position": {
+            "pythonClassName": "tensorflow_datasets.core.features.tensor_feature.Tensor",
+            "tensor": {
+             "dtype": "float64",
+             "encoding": "none",
+             "shape": {
+              "dimensions": [
+               "7"
+              ]
+             }
+            }
+           },
+           "wrist_image_left": {
+            "image": {
+             "dtype": "uint8",
+             "encodingFormat": "jpeg",
+             "shape": {
+              "dimensions": [
+               "180",
+               "320",
+               "3"
+              ]
+             }
+            },
+            "pythonClassName": "tensorflow_datasets.core.features.image_feature.Image"
+           }
+          }
+         },
+         "pythonClassName": "tensorflow_datasets.core.features.features_dict.FeaturesDict"
+        },
+        "reward": {
+         "pythonClassName": "tensorflow_datasets.core.features.scalar.Scalar",
+         "tensor": {
+          "dtype": "float32",
+          "encoding": "none",
+          "shape": {}
+         }
+        }
+       }
+      },
+      "pythonClassName": "tensorflow_datasets.core.features.features_dict.FeaturesDict"
+     },
+     "length": "-1"
+    }
+   }
+  }
+ },
+ "pythonClassName": "tensorflow_datasets.core.features.features_dict.FeaturesDict"
+}

@@ -1,0 +1,67 @@
+episodes 9789  train pool 6989 (S=3989)  test 2800 (S=996, rate 0.356)  load 2s  peak RSS 2.13 GB
+normalized  peak RSS 2.36 GB
+judge reference: {"real_auroc": 0.8489323146243511, "real_p_on_failures": 0.3014713227748871, "real_p_on_successes": 0.6956241726875305, "real_pred_rate": 0.4203571428571429, "copy_first_auroc": 0.6042117472105718, "copy_first_p_on_failures": 0.15694157779216766, "copy_first_p_on_successes": 0.20661742985248566, "copy_first_pred_rate": 0.04642857142857143, "length_only_auroc": 0.7638839726978868, "test_true_rate": 0.3557142857142857}  peak RSS 3.84 GB
+  step 1000/2000 loss 0.2678
+  step 2000/2000 loss 0.2508
+S3000_F0_s0: auroc 0.762  p|fail 0.425  p|succ 0.668  pred_rate 0.510  cf_drop no_grasp 0.224 frozen 0.248 swap 0.165  [4.2 min, peak RSS 3.95 GB]
+  step 1000/2000 loss 0.2647
+  step 2000/2000 loss 0.2486
+S3000_F0_s1: auroc 0.759  p|fail 0.430  p|succ 0.667  pred_rate 0.511  cf_drop no_grasp 0.150 frozen 0.249 swap 0.156  [4.2 min, peak RSS 3.95 GB]
+  step 1000/2000 loss 0.2667
+  step 2000/2000 loss 0.2501
+S3000_F0_s2: auroc 0.762  p|fail 0.424  p|succ 0.666  pred_rate 0.507  cf_drop no_grasp 0.204 frozen 0.257 swap 0.174  [4.2 min, peak RSS 3.95 GB]
+  step 1000/2000 loss 0.2695
+  step 2000/2000 loss 0.2530
+S2700_F300_s0: auroc 0.774  p|fail 0.387  p|succ 0.648  pred_rate 0.466  cf_drop no_grasp 0.234 frozen 0.266 swap 0.159  [4.2 min, peak RSS 3.95 GB]
+  step 1000/2000 loss 0.2673
+  step 2000/2000 loss 0.2516
+S2700_F300_s1: auroc 0.773  p|fail 0.384  p|succ 0.642  pred_rate 0.457  cf_drop no_grasp 0.106 frozen 0.250 swap 0.164  [4.1 min, peak RSS 3.95 GB]
+  step 1000/2000 loss 0.2673
+  step 2000/2000 loss 0.2530
+S2700_F300_s2: auroc 0.766  p|fail 0.408  p|succ 0.660  pred_rate 0.481  cf_drop no_grasp 0.206 frozen 0.244 swap 0.179  [4.1 min, peak RSS 3.95 GB]
+  step 1000/2000 loss 0.2724
+  step 2000/2000 loss 0.2561
+S2250_F750_s0: auroc 0.783  p|fail 0.349  p|succ 0.624  pred_rate 0.419  cf_drop no_grasp 0.220 frozen 0.275 swap 0.160  [4.1 min, peak RSS 3.95 GB]
+  step 1000/2000 loss 0.2709
+  step 2000/2000 loss 0.2553
+S2250_F750_s1: auroc 0.781  p|fail 0.361  p|succ 0.634  pred_rate 0.424  cf_drop no_grasp 0.190 frozen 0.247 swap 0.170  [4.1 min, peak RSS 3.95 GB]
+  step 1000/2000 loss 0.2704
+  step 2000/2000 loss 0.2552
+S2250_F750_s2: auroc 0.781  p|fail 0.355  p|succ 0.629  pred_rate 0.421  cf_drop no_grasp 0.253 frozen 0.257 swap 0.169  [4.1 min, peak RSS 3.95 GB]
+  step 1000/2000 loss 0.2719
+  step 2000/2000 loss 0.2568
+S1500_F1500_s0: auroc 0.780  p|fail 0.331  p|succ 0.604  pred_rate 0.393  cf_drop no_grasp 0.237 frozen 0.281 swap 0.156  [4.1 min, peak RSS 3.95 GB]
+  step 1000/2000 loss 0.2705
+  step 2000/2000 loss 0.2561
+S1500_F1500_s1: auroc 0.785  p|fail 0.331  p|succ 0.606  pred_rate 0.392  cf_drop no_grasp 0.185 frozen 0.263 swap 0.157  [4.0 min, peak RSS 3.95 GB]
+  step 1000/2000 loss 0.2705
+  step 2000/2000 loss 0.2549
+S1500_F1500_s2: auroc 0.785  p|fail 0.330  p|succ 0.608  pred_rate 0.393  cf_drop no_grasp 0.212 frozen 0.292 swap 0.168  [4.0 min, peak RSS 3.95 GB]
+  step 1000/2000 loss 0.2694
+  step 2000/2000 loss 0.2567
+S1050_F1950_s0: auroc 0.776  p|fail 0.309  p|succ 0.566  pred_rate 0.355  cf_drop no_grasp 0.220 frozen 0.262 swap 0.147  [4.0 min, peak RSS 3.95 GB]
+  step 1000/2000 loss 0.2727
+  step 2000/2000 loss 0.2577
+S1050_F1950_s1: auroc 0.780  p|fail 0.321  p|succ 0.593  pred_rate 0.376  cf_drop no_grasp 0.177 frozen 0.241 swap 0.159  [4.0 min, peak RSS 3.95 GB]
+  step 1000/2000 loss 0.2706
+  step 2000/2000 loss 0.2559
+S1050_F1950_s2: auroc 0.784  p|fail 0.314  p|succ 0.587  pred_rate 0.365  cf_drop no_grasp 0.198 frozen 0.265 swap 0.164  [4.1 min, peak RSS 3.95 GB]
+  step 1000/2000 loss 0.2528
+  step 2000/2000 loss 0.2336
+S1500_F0_s0: auroc 0.740  p|fail 0.465  p|succ 0.686  pred_rate 0.565  cf_drop no_grasp 0.126 frozen 0.190 swap 0.183  [4.1 min, peak RSS 3.95 GB]
+  step 1000/2000 loss 0.2509
+  step 2000/2000 loss 0.2326
+S1500_F0_s1: auroc 0.739  p|fail 0.455  p|succ 0.673  pred_rate 0.548  cf_drop no_grasp 0.140 frozen 0.194 swap 0.177  [4.1 min, peak RSS 3.95 GB]
+  step 1000/2000 loss 0.2545
+  step 2000/2000 loss 0.2346
+S1500_F0_s2: auroc 0.747  p|fail 0.460  p|succ 0.685  pred_rate 0.556  cf_drop no_grasp 0.234 frozen 0.231 swap 0.185  [4.1 min, peak RSS 3.95 GB]
+                    wm_auroc        wm_p_on_failures        wm_p_on_successes        wm_pred_rate        policy_spearman        policy_calib_slope        cf_no_grasp_drop        cf_frozen_arm_drop        cf_swapped_drop        latent_mse_on_failures        latent_mse_on_successes       
+                        mean    std             mean    std              mean    std         mean    std            mean    std               mean    std             mean    std               mean    std            mean    std                   mean    std                    mean    std
+n_success n_failure                                                                                                                                                                                                                                                                            
+1050      1950         0.780  0.004            0.315  0.006             0.582  0.014        0.365  0.011           0.963  0.012              0.286  0.015            0.199  0.022              0.256  0.013           0.157  0.009                  0.549  0.004                   0.520  0.004
+1500      0            0.742  0.004            0.460  0.005             0.681  0.007        0.556  0.008           0.961  0.003              0.238  0.003            0.167  0.059              0.205  0.023           0.182  0.004                  0.639  0.003                   0.537  0.001
+          1500         0.783  0.003            0.331  0.001             0.606  0.002        0.392  0.000           0.956  0.008              0.299  0.008            0.211  0.026              0.279  0.015           0.160  0.007                  0.552  0.003                   0.510  0.004
+2250      750          0.782  0.001            0.355  0.006             0.629  0.005        0.421  0.002           0.969  0.010              0.299  0.003            0.221  0.031              0.260  0.014           0.166  0.005                  0.559  0.003                   0.504  0.002
+2700      300          0.771  0.005            0.393  0.013             0.650  0.009        0.468  0.012           0.965  0.010              0.283  0.005            0.182  0.067              0.253  0.012           0.167  0.010                  0.569  0.006                   0.502  0.001
+3000      0            0.761  0.002            0.426  0.003             0.667  0.001        0.509  0.002           0.969  0.002              0.264  0.011            0.193  0.039              0.251  0.004           0.165  0.009                  0.582  0.001                   0.499  0.001
+[memguard] peak 3.97 GB, exit 0

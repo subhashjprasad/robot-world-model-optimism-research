@@ -1,0 +1,7 @@
+mixture,labeled_failure,labeled_success,unlabeled_scripted,unlabeled_demo_presumed_success,play_or_exploration,top_datasets,failure_sources,n_unsampled
+[policy ref] Octo (paper Table III),0.1215,0.3116,0.0,0.4566,0.1103,fractal20220817_data:0.17; kuka:0.17; bridge:0.17; bc_z:0.09,kuka:92%; fractal20220817_data:8%; dlr_edan_shared_control_converted_externally_to_rlds:0%,1
+[policy ref] OpenVLA (paper App. A),0.1115,0.3411,0.0,0.4568,0.0906,bridge:0.14; fractal20220817_data:0.13; kuka:0.13; droid:0.11,kuka:78%; droid:14%; fractal20220817_data:7%,2
+[WM] iVideoGPT OXE_SELECT pretraining,0.0854,0.3516,0.0,0.2798,0.2831,fractal20220817_data:0.15; bridge:0.15; bc_z:0.15; robo_net:0.15,kuka:78%; fractal20220817_data:11%; ucsd_pick_and_place_dataset_converted_externally_to_rlds:5%,1
+"[WM] IRASim (RT-1+Bridge+LangTable, by train clips)",0.0321,0.5087,0.0,0.1128,0.3465,fractal20220817_data:0.54; language_table:0.35; bridge:0.11,fractal20220817_data:100%,0
+[WM] Cosmos-Predict2.5 action-cond (Bridge),0.0,0.0,0.0,1.0,0.0,bridge:1.00,,0
+[WM] Ctrl-World / RoboWorld (DROID),0.1531,0.8469,0.0,0.0,0.0,droid:1.00,droid:100%,0

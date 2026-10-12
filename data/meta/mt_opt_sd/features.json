@@ -1,0 +1,60 @@
+{
+ "type": "tensorflow_datasets.core.features.features_dict.FeaturesDict",
+ "content": {
+  "task_code": {
+   "type": "tensorflow_datasets.core.features.tensor_feature.Tensor",
+   "content": {
+    "shape": [],
+    "dtype": "string",
+    "encoding": "none"
+   }
+  },
+  "success": {
+   "type": "tensorflow_datasets.core.features.tensor_feature.Tensor",
+   "content": {
+    "shape": [],
+    "dtype": "bool",
+    "encoding": "none"
+   }
+  },
+  "image_0": {
+   "type": "tensorflow_datasets.core.features.image_feature.Image",
+   "content": {
+    "shape": [
+     512,
+     640,
+     3
+    ],
+    "dtype": "uint8",
+    "encoding_format": "jpeg",
+    "use_colormap": false
+   }
+  },
+  "image_1": {
+   "type": "tensorflow_datasets.core.features.image_feature.Image",
+   "content": {
+    "shape": [
+     480,
+     640,
+     3
+    ],
+    "dtype": "uint8",
+    "encoding_format": "jpeg",
+    "use_colormap": false
+   }
+  },
+  "image_2": {
+   "type": "tensorflow_datasets.core.features.image_feature.Image",
+   "content": {
+    "shape": [
+     480,
+     640,
+     3
+    ],
+    "dtype": "uint8",
+    "encoding_format": "jpeg",
+    "use_colormap": false
+   }
+  }
+ }
+}

@@ -1,0 +1,25 @@
+{
+ "citation": "@article{wu2023tidybot,title = {TidyBot: Personalized Robot Assistance with Large Language Models},author = {Wu, Jimmy and Antonova, Rika and Kan, Adam and Lepert, Marion and Zeng, Andy and Song, Shuran and Bohg, Jeannette and Rusinkiewicz, Szymon and Funkhouser, Thomas},journal = {Autonomous Robots},year = {2023}}",
+ "fileFormat": "tfrecord",
+ "location": {
+  "urls": [
+   "https://github.com/jimmyyhwu/rlds_dataset_builder\n\nhttps://github.com/jimmyyhwu/tidybot"
+  ]
+ },
+ "moduleName": "__main__",
+ "name": "tidybot",
+ "releaseNotes": {
+  "0.0.1": "Initial release."
+ },
+ "splits": [
+  {
+   "filepathTemplate": "{DATASET}-{SPLIT}.{FILEFORMAT}-{SHARD_X_OF_Y}",
+   "name": "train",
+   "numBytes": "21081268",
+   "shardLengths": [
+    "24"
+   ]
+  }
+ ],
+ "version": "0.0.1"
+}

@@ -1,0 +1,35 @@
+{
+ "fileFormat": "array_record",
+ "moduleName": "__main__",
+ "name": "utokyo_pr2_tabletop_manipulation_converted_externally_to_rlds",
+ "releaseNotes": {
+  "0.0.1": "Initial release."
+ },
+ "splits": [
+  {
+   "filepathTemplate": "{DATASET}-{SPLIT}.{FILEFORMAT}-{SHARD_X_OF_Y}",
+   "name": "train",
+   "numBytes": "701002051",
+   "shardLengths": [
+    "19",
+    "27",
+    "25",
+    "22",
+    "22",
+    "29",
+    "22",
+    "26"
+   ]
+  },
+  {
+   "filepathTemplate": "{DATASET}-{SPLIT}.{FILEFORMAT}-{SHARD_X_OF_Y}",
+   "name": "val",
+   "numBytes": "168655249",
+   "shardLengths": [
+    "24",
+    "24"
+   ]
+  }
+ ],
+ "version": "1.0.0"
+}

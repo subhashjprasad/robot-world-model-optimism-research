@@ -1,0 +1,12 @@
+{
+ "real_auroc": 0.8489323146243511,
+ "real_p_on_failures": 0.3014713227748871,
+ "real_p_on_successes": 0.6956241726875305,
+ "real_pred_rate": 0.4203571428571429,
+ "copy_first_auroc": 0.6042117472105718,
+ "copy_first_p_on_failures": 0.15694157779216766,
+ "copy_first_p_on_successes": 0.20661742985248566,
+ "copy_first_pred_rate": 0.04642857142857143,
+ "length_only_auroc": 0.7638839726978868,
+ "test_true_rate": 0.3557142857142857
+}

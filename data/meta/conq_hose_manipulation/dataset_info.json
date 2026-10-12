@@ -1,0 +1,72 @@
+{
+ "citation": "@misc{ConqHoseManipData, @misc{ConqHoseManipData,\n\nauthor={Peter Mitrano and Dmitry Berenson},\n\ntitle={Conq Hose Manipulation Dataset, v1.15.0},\n\nyear={2024},\n\nhowpublished={https://sites.google.com/view/conq-hose-manipulation-dataset}\n\n}",
+ "description": "Mobile manipulation dataset",
+ "fileFormat": "tfrecord",
+ "location": {
+  "urls": [
+   "https://sites.google.com/corp/view/conq-hose-manipulation-dataset/home"
+  ]
+ },
+ "moduleName": "__main__",
+ "name": "conq_hose_manipulation",
+ "releaseNotes": {
+  "0.0.1": "Initial release."
+ },
+ "splits": [
+  {
+   "filepathTemplate": "{DATASET}-{SPLIT}.{FILEFORMAT}-{SHARD_X_OF_Y}",
+   "name": "train",
+   "numBytes": "2222333364",
+   "shardLengths": [
+    "3",
+    "8",
+    "2",
+    "1",
+    "3",
+    "2",
+    "4",
+    "3",
+    "2",
+    "7",
+    "1",
+    "1",
+    "2",
+    "5",
+    "3",
+    "3",
+    "5",
+    "2",
+    "2",
+    "6",
+    "3",
+    "4",
+    "7",
+    "5",
+    "5",
+    "4",
+    "4",
+    "3",
+    "5",
+    "1",
+    "1",
+    "6"
+   ]
+  },
+  {
+   "filepathTemplate": "{DATASET}-{SPLIT}.{FILEFORMAT}-{SHARD_X_OF_Y}",
+   "name": "val",
+   "numBytes": "688087200",
+   "shardLengths": [
+    "2",
+    "1",
+    "5",
+    "5",
+    "5",
+    "2",
+    "2",
+    "4"
+   ]
+  }
+ ],
+ "version": "0.0.1"
+}

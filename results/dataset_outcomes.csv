@@ -1,0 +1,87 @@
+dataset,n_sampled,collection,mean_steps,reward_max_values,frac_reward_last_eq_1,label_source,shards_covered,frac_scripted_path,failure_rate,failure_ci_lo,failure_ci_hi,n_labeled,episodes_total,est_transitions
+mt_opt_rlds,320,rl_autonomous,12.515625,,,none,16.0,0.0,,,,,920165,11516440.078125
+vima_converted_externally_to_rlds,320,sim_oracle,1.765625,[1.0],1.0,explicit,16.0,0.0,0.0,-8.570725816457463e-19,0.011862589611711402,320.0,660103,1165494.359375
+kuka,320,rl_autonomous,15.053125,"[0.0, 1.0]",0.0,explicit,16.0,0.0,0.653125,0.5994356035443021,0.7031814783871112,320.0,580392,8736713.325
+mt_opt_sd,320,rl_autonomous,0.0,,,explicit,16.0,0.0,0.821875,0.7762091411241941,0.8599043168132667,320.0,474870,0.0
+language_table,320,play,15.4,[1.0],0.0,constant_reward,16.0,0.0,,,,,442226,6810280.4
+spoc,320,sim_planner,84.315625,[0.0],0.0,explicit,16.0,0.0,0.128125,0.0958673632725479,0.16920543775116242,320.0,233151,19658272.284375
+language_table_blocktorelative_oracle_sim,320,unannotated,41.696875,[100.0],0.0,constant_reward,16.0,0.0,,,,,200000,8339375.0
+language_table_blocktoblockrelative_oracle_sim,320,unannotated,66.7,[100.0],0.0,constant_reward,16.0,0.0,,,,,200000,13340000.0
+language_table_blocktoblock_oracle_sim,320,unannotated,66.340625,[100.0],0.0,constant_reward,16.0,0.0,,,,,200000,13268125.0
+language_table_separate_oracle_sim,320,unannotated,16.875,[100.0],0.0,constant_reward,16.0,0.0,,,,,200000,3375000.0
+language_table_blocktoabsolute_oracle_sim,320,unannotated,78.396875,[100.0],0.0,constant_reward,16.0,0.0,,,,,200000,15679374.999999998
+language_table_sim,320,unannotated,25.959375,[100.0],0.0,constant_reward,16.0,0.0,,,,,181020,4699166.0625
+droid,320,demo(+failures),310.65625,"[0.0, 1.0]",0.846875,path,16.0,0.0,0.153125,0.11780323325443276,0.19667643828869202,320.0,95658,29716755.5625
+fractal20220817_data,320,demo,43.221875,"[0.0, 1.0]",0.0,reward,16.0,0.0,0.059375,0.03833710937566087,0.09086679771965979,320.0,87212,3769466.1624999996
+robo_net,320,random_exploration,30.0,[0.0],0.0,constant_reward,16.0,0.0,,,,,82775,2483250.0
+bridge_data_v2,320,demo+scripted,36.75,[1.0],1.0,constant_reward,16.0,0.146875,,,,,60063,2207315.25
+bc_z,320,demo+hg_dagger,140.64375,[1.0],1.0,explicit,16.0,0.0,0.0,-8.570725816457463e-19,0.011862589611711402,320.0,43264,6084811.2
+maniskill_dataset_converted_externally_to_rlds,319,sim_planner,151.93730407523512,[1.0],1.0,constant_reward,16.0,0.0,,,,,30213,4590481.768025079
+bridge,315,demo+scripted,34.65079365079365,[1.0],0.0,constant_reward,16.0,0.0,,,,,28935,1002620.7142857143
+robo_set,276,unannotated,76.73913043478261,[1.0],1.0,constant_reward,16.0,0.0,,,,,18250,1400489.1304347827
+berkeley_gnm_recon,320,unannotated,51.671875,[1.0],1.0,constant_reward,16.0,0.0,,,,,11834,611484.96875
+stanford_mask_vit_converted_externally_to_rlds,149,random_exploration,31.0,[0.0],0.0,constant_reward,16.0,0.0,,,,,9200,285200.0
+fmb,0,unannotated,,,,not_sampled,,,,,,,8611,
+language_table_blocktoblock_4block_sim,320,unannotated,40.9375,[100.0],0.0,constant_reward,16.0,0.0,,,,,8298,339699.375
+language_table_blocktoblock_sim,320,unannotated,42.325,[100.0],0.0,constant_reward,16.0,0.0,,,,,8000,338600.0
+berkeley_gnm_cory_hall,320,unannotated,20.465625,[1.0],1.0,constant_reward,16.0,0.0,,,,,7331,150033.49687499998
+dobbe,159,unannotated,223.52830188679246,[1.0],1.0,constant_reward,16.0,0.0,,,,,5208,1164135.3962264152
+furniture_bench_dataset_converted_externally_to_rlds,69,demo,689.304347826087,[1.0],0.07246376811594203,constant_reward,16.0,0.0,,,,,5100,3515452.1739130435
+cmu_playing_with_food,33,unannotated,129.84848484848484,[0.0],0.0,constant_reward,8.0,0.0,,,,,4200,545363.6363636364
+io_ai_tech,31,unannotated,84.96774193548387,[1.0],1.0,constant_reward,8.0,0.0,,,,,3847,326870.9032258065
+taco_play,38,play,66.0,[1.0],0.0,constant_reward,8.0,0.0,,,,,3603,237798.0
+stanford_kuka_multimodal_dataset_converted_externally_to_rlds,78,unannotated,50.0,[1.0],1.0,constant_reward,8.0,0.0,,,,,3000,150000.0
+berkeley_gnm_sac_son,80,unannotated,78.1875,[1.0],1.0,constant_reward,8.0,0.0,,,,,2955,231044.0625
+stanford_robocook_converted_externally_to_rlds,14,unannotated,43.714285714285715,[0.0],0.0,constant_reward,8.0,0.0,,,,,2460,107537.14285714286
+roboturk,31,demo,105.7741935483871,[0.0],0.0,constant_reward,8.0,0.0,,,,,1995,211019.51612903227
+berkeley_cable_routing,80,demo,27.25,[1.0],0.0,constant_reward,8.0,0.0,,,,,1647,44880.75
+mutex_dataset,47,unannotated,243.25531914893617,[1.0],1.0,constant_reward,8.0,0.0,,,,,1500,364882.97872340423
+utaustin_mutex,46,demo,222.65217391304347,[1.0],1.0,constant_reward,8.0,0.0,,,,,1500,333978.2608695652
+ucsd_pick_and_place_dataset_converted_externally_to_rlds,80,unannotated,50.0,"[0.0, 1.0]",0.4,explicit,8.0,0.0,0.5875,0.47803841126883023,0.6889431348848691,80.0,1355,67750.0
+jaco_play,45,play,71.11111111111111,[1.0],1.0,constant_reward,8.0,0.0,,,,,1085,77155.55555555556
+toto,0,demo,,,,not_sampled,,,,,,,1003,
+usc_cloth_sim_converted_externally_to_rlds,20,unannotated,100.0,"[0.914, 0.915, 0.916, 0.917, 0.918, 0.919]",0.0,reward,2.0,0.0,0.0,-1.1641658116749259e-17,0.1611301254949332,20.0,1000,100000.0
+berkeley_autolab_ur5,16,demo,91.0625,[1.0],0.0,constant_reward,8.0,0.0,,,,,1000,91062.5
+berkeley_rpt_converted_externally_to_rlds,15,unannotated,461.73333333333335,[1.0],1.0,constant_reward,8.0,0.0,,,,,908,419253.8666666667
+bridge_data_msr,35,unannotated,84.71428571428571,"[0.0, 1.0]",0.6285714285714286,reward,8.0,0.0,0.37142857142857144,0.2316560736889106,0.5366335951197893,35.0,822,69635.14285714286
+iamlab_cmu_pickup_insert_converted_externally_to_rlds,19,demo,240.78947368421052,[0.0],0.0,constant_reward,8.0,0.0,,,,,631,151938.15789473683
+cmu_play_fusion,63,play,435.5238095238095,[1.0],1.0,constant_reward,8.0,0.0,,,,,576,250861.7142857143
+stanford_hydra_dataset_converted_externally_to_rlds,9,demo,595.6666666666666,[1.0],1.0,constant_reward,8.0,0.0,,,,,570,339530.0
+austin_sirius_dataset_converted_externally_to_rlds,71,policy+intervention,489.056338028169,[1.0],1.0,constant_reward,8.0,0.0,,,,,559,273382.4929577465
+nyu_door_opening_surprising_effectiveness,48,demo,41.625,[1.0],0.0,constant_reward,8.0,0.0,,,,,484,20146.5
+berkeley_mvp_converted_externally_to_rlds,32,unannotated,96.65625,[1.0],1.0,constant_reward,8.0,0.0,,,,,480,46395.0
+nyu_franka_play_dataset_converted_externally_to_rlds,80,play,88.9875,[1.0],1.0,constant_reward,8.0,0.0,,,,,456,40578.299999999996
+plex_robosuite,80,unannotated,176.65,[0.0],0.0,constant_reward,8.0,0.0,,,,,450,79492.5
+robo_ai_u_r5e,19,unannotated,137.0,,,none,8.0,0.0,,,,,443,60691.0
+berkeley_fanuc_manipulation,30,demo,150.06666666666666,[1.0],1.0,constant_reward,8.0,0.0,,,,,415,62277.666666666664
+fanuc_manipulation_v2,26,unannotated,111.03846153846153,[1.0],1.0,constant_reward,8.0,0.0,,,,,415,46080.96153846154
+mimic_play,41,unannotated,939.9756097560976,[1.0],1.0,constant_reward,8.0,0.0,,,,,378,355310.7804878049
+aloha_mobile,0,unannotated,,,,not_sampled,,,,,,,276,
+austin_sailor_dataset_converted_externally_to_rlds,24,demo,1732.0833333333333,[1.0],1.0,constant_reward,8.0,0.0,,,,,240,415700.0
+utokyo_pr2_tabletop_manipulation_converted_externally_to_rlds,80,unannotated,136.4125,[1.0],1.0,constant_reward,8.0,0.0,,,,,240,32739.0
+kaist_nonprehensile_converted_externally_to_rlds,19,unannotated,134.10526315789474,[1.0],1.0,constant_reward,8.0,0.0,,,,,201,26955.157894736843
+qut_dexterous_manpulation,0,unannotated,,,,not_sampled,,,,,,,200,
+cmu_franka_exploration_dataset_converted_externally_to_rlds,80,unannotated,10.0,"[0.019, 0.02, 0.027, 0.032, 0.034, 0.036]",0.0,reward,8.0,0.0,0.0,-3.310477807631166e-18,0.0458197362645751,80.0,199,1990.0
+uiuc_d3field,13,unannotated,50.61538461538461,[0.0],0.0,constant_reward,8.0,0.0,,,,,196,9920.615384615385
+imperialcollege_sawyer_wrist_cam,10,unannotated,46.5,[1.0],1.0,constant_reward,1.0,0.0,,,,,170,7905.0
+imperial_wrist_dataset,10,unannotated,36.3,[1.0],1.0,constant_reward,1.0,0.0,,,,,170,6170.999999999999
+ucsd_kitchen_dataset_converted_externally_to_rlds,64,demo,26.71875,[1.0],1.0,constant_reward,8.0,0.0,,,,,150,4007.8125
+viola,19,demo,519.3684210526316,[1.0],0.0,constant_reward,8.0,0.0,,,,,150,77905.26315789473
+conq_hose_manipulation,25,unannotated,53.44,[1.0],1.0,constant_reward,8.0,0.0,,,,,139,7428.16
+columbia_cairlab_pusht_real,32,unannotated,213.9375,[1.0],0.0,constant_reward,8.0,0.0,,,,,136,29095.5
+cmu_stretch,77,demo,186.27272727272728,[1.0],1.0,constant_reward,8.0,0.0,,,,,135,25146.818181818184
+eth_agent_affordances,0,unannotated,,,,not_sampled,,,,,,,118,
+agent_aware_affordances,0,unannotated,,,,not_sampled,,,,,,,118,
+asu_table_top_converted_externally_to_rlds,80,unannotated,234.0375,[1.0],1.0,constant_reward,8.0,0.0,,,,,110,25744.125
+dlr_sara_grid_clamp_converted_externally_to_rlds,56,unannotated,71.73214285714286,"[0.0, 1.0]",0.7678571428571429,reward,8.0,0.0,0.23214285714285715,0.1409924724565329,0.3576840335192431,56.0,107,7675.339285714286
+dlr_edan_shared_control_converted_externally_to_rlds,27,shared_control,92.92592592592592,"[0.0, 1.0]",0.9629629629629629,reward,8.0,0.0,0.037037037037037035,0.006567976533097596,0.1828385393415652,27.0,104,9664.296296296296
+utokyo_xarm_pick_and_place_converted_externally_to_rlds,49,unannotated,73.34693877551021,[1.0],0.0,constant_reward,8.0,0.0,,,,,102,7481.387755102041
+dlr_sara_pour_converted_externally_to_rlds,24,unannotated,125.04166666666667,"[0.0, 1.0]",0.4583333333333333,reward,8.0,0.0,0.5416666666666666,0.3507455355310663,0.7210894164831857,24.0,100,12504.166666666668
+droid_100,23,unannotated,396.9130434782609,"[0.0, 1.0]",0.9565217391304348,path,8.0,0.0,0.043478260869565216,0.007716466962126739,0.20991586494059142,23.0,100,39691.30434782609
+utokyo_pr2_opening_fridge_converted_externally_to_rlds,40,unannotated,144.5,[1.0],1.0,constant_reward,4.0,0.0,,,,,80,11560.0
+utokyo_xarm_bimanual_converted_externally_to_rlds,10,unannotated,27.0,[1.0],0.0,constant_reward,1.0,0.0,,,,,70,1890.0
+tokyo_u_lsmo_converted_externally_to_rlds,40,unannotated,238.55,[1.0],1.0,constant_reward,4.0,0.0,,,,,50,11927.5
+austin_buds_dataset_converted_externally_to_rlds,27,demo,684.7407407407408,[1.0],1.0,constant_reward,8.0,0.0,,,,,50,34237.03703703704
+tidybot,10,unannotated,8.9,[1.0],1.0,constant_reward,1.0,0.0,,,,,24,213.60000000000002
+utokyo_saytap_converted_externally_to_rlds,10,unannotated,1118.7,[1.0],1.0,constant_reward,1.0,0.0,,,,,20,22374.0
+nyu_rot_dataset_converted_externally_to_rlds,10,unannotated,31.0,[1.0],1.0,constant_reward,1.0,0.0,,,,,14,434.0
