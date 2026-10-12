@@ -1,5 +1,8 @@
 # Do Robot World Models Learn to Be Optimistic?
 
+## Writeup
+https://docs.google.com/document/d/1xUpGr6OCXZ5vDt4GT0jD0SkNFPd0HS4cRyLaNnFt4aA/edit?usp=sharing
+
 ## Technical details
 
 ### Audit method
